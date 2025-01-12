@@ -1,3 +1,8 @@
+package brcomncn.shelf;
+
+import brcomncn.shelf.Book;
+import brcomncn.shelf.Genre;
+
 public class BookGenre {
 
 	private Book book;

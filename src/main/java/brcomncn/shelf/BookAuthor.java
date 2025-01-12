@@ -1,3 +1,6 @@
+import brcomncn.shelf.Author;
+import brcomncn.shelf.Book;
+
 public class BookAuthor {
 
 	private Book book;
