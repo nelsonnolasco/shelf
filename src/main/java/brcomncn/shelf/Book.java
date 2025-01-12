@@ -1,29 +1,24 @@
 package brcomncn.shelf;
 
+import java.util.Date;
+
 public class Book {
 
 	private int id;
-
 	private String isbn;
-
 	private String title;
-
 	private String subtitle;
-
 	private Date publishedDate;
-
 	private int pages;
-
 	private String language;
-
 	private String synopsis;
-
 	private Shelf shelf;
 	
 public Book() {
 }
 
-public Book(int id, String isbn, String title, String subtitle, Date publishedDate, int pages, String language, String synopsis, Shelf shelf) {
+public Book(int id, String isbn, String title, String subtitle, Date publishedDate, int pages,
+			String language, String synopsis, Shelf shelf) {
     this.id = id;
     this.isbn = isbn;
     this.title = title;
